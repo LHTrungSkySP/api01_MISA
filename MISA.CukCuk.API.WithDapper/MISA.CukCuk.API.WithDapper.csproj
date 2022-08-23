@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="obj\MISA.CukCuk.API.WithDapper.csproj.nuget.dgspec.json" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="obj\Debug\net6.0\MISA.CukCuk.API.WithDapper.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net6.0\MISA.CukCuk.API.WithDapper.assets.cache" />
+    <None Include="obj\Debug\net6.0\MISA.CukCuk.API.WithDapper.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net6.0\MISA.CukCuk.API.WithDapper.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\MISA.CukCuk.API.WithDapper.csproj.nuget.g.props" />
+    <None Include="obj\MISA.CukCuk.API.WithDapper.csproj.nuget.g.targets" />
+    <None Include="obj\MISA.CukCuk.API.WithDapper.csproj.nuget.g.props" />
+    <None Include="obj\MISA.CukCuk.API.WithDapper.csproj.nuget.g.targets" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="MySqlConnector" Version="2.1.12" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="obj\Debug\net6.0\refint\" />
+    <Folder Include="obj\Debug\net6.0\ref\" />
+    <Folder Include="obj\Debug\net6.0\staticwebassets\" />
+  </ItemGroup>
+
+</Project>
